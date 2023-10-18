@@ -102,3 +102,64 @@
     cursor: pointer;
     box-shadow: 0 0 5px 2px #9e000488;
 }
+
+
+
+.container-testimonials {
+    background-color: #161917;
+    color: #fff;
+    height: 550px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.box-main-testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 150px;
+}
+
+.box-main-testimonial .testimonial {
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: 700;
+}
+
+.box-main-testimonial .author {
+    font-size: 1.4em;
+    font-weight: 400;
+}
+
+.box-sec-testimonials {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+.sec-testimonials {
+    flex: 1;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.sec-testimonials .testimonial {
+    font-size: 1.12em;
+    text-align: center;
+    font-weight: 600;
+}
+
+.testimonial {
+    line-height: 1.5em;
+}
+
+.author {
+    opacity: 0.7;
+}
