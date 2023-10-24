@@ -275,23 +275,26 @@
 
 .newsletter .user-email::placeholder {
     color: #fff;
+    letter-spacing: 1px;
 }
 
 .newsletter .subscribe-btn {
     flex: 1;
     font-size: 1.12em;
-    background-color: #fff;
-    border: 3px solid #fff;
-    border-radius: 10px;
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 8px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
     cursor: pointer;
+    color: #fff;
+    box-shadow: 0 0 6px 3px #16191750;
 }
 
 .newsletter .subscribe-btn:hover {
-    background-color: transparent;
-    color: #fff;
+    background-color: #161917;
+    border-color: #161917;
 }
 
 
