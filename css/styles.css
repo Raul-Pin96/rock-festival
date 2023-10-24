@@ -105,10 +105,20 @@
     padding: 10px 20px;
     text-transform: uppercase;
     border: 2px solid #9e0004;
-    border-radius: 7px;
-    text-shadow: 1px 1px black;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
     cursor: pointer;
-    box-shadow: 0 0 5px 2px #9e000488;
+    box-shadow: 0 0 5px 2px #9e0004aa;
+}
+
+.over-image .join-mov:hover {
+    background-color: #000;
+    color: #9e0004;
+    font-weight: 700;
+    border-right: none;
+    border-left: none;
+    box-shadow: 0 0 8px 5px #9e0004dd;
 }
 
 
