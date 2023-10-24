@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Not Found</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body::before {
+            content: "";
+            background-image: url('./img/404-bg.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            filter: grayscale(80%);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .container-banner {
+            height: calc(100vh - 100px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .banner-404 {
+            width: 600px;
+            min-height: 70%;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 15px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 15px 1px #b9030f;
+            border-radius: 20px;
+        }
+
+        .banner-404 .title-404 {
+            font-size: 7em;
+            font-weight: 700;
+            text-shadow: 0 0 15px #000;
+            color: #b9030f;
+            text-transform: uppercase;
+            word-spacing: 1px;
+        }
+
+        .banner-404 .subtitle-404 {
+            font-size: 2.5em;
+            font-weight: 600;
+            text-shadow: 0 0 15px #000;
+            color: #b9030f;
+            text-transform: uppercase;
+            word-spacing: 1px;
+            margin-bottom: 50px;
+        }
+
+        .banner-404 .text-404 {
+            color: #e1e3db;
+        }
+    </style>
+</head>
+<body>
+    
+    <header class="top-menu">
+        <nav>
+            <ul class="left-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="404.html">LINE-UP</a></li>
+                <li><a href="404.html">ABOUT</a></li>
+            </ul>
+
+            <a class="link-logo" href="index.html"><img class="logo" src="./img/logo.png" alt="Skull and Bones - Festival Logo"></a>
+
+            <ul class="right-links">
+                <li><a href="404.html">TICKETS</a></li>
+                <li><a href="404.html">TIMELINE</a></li>
+                <li><a href="404.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container-banner">
+        <div class="banner-404">
+            <h1 class="title-404">404</h1>
+
+            <h2 class="subtitle-404">Not Found</h2>
+    
+            <p class="text-404">
+                It seems like you're looking for something that isn't here.<br>
+                Maybe this page has not been built yet.
+            </p>
+        </div>
+    </div>
+    
+</body>
+</html>
